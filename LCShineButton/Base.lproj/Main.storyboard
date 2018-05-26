@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LCShineButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXO-Y2-bRP" customClass="LCShineButton" customModule="LCShineButton">
+                                <rect key="frame" x="157" y="72" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="9lg-Vs-hrK"/>
+                                    <constraint firstAttribute="width" constant="60" id="ndj-8W-xxT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.59999999999999998" green="0.59607843140000005" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tdh-aG-wGs"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M4p-9b-y0h" customClass="LCShineButton" customModule="LCShineButton" customModuleProvider="target">
+                                <rect key="frame" x="157" y="180" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="PFT-Vy-5Zf"/>
+                                    <constraint firstAttribute="width" constant="60" id="ydW-u4-kpk"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.59999999999999998" green="0.59607843140000005" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QAl-f9-BPA" customClass="LCShineButton" customModule="LCShineButton" customModuleProvider="target">
+                                <rect key="frame" x="157" y="288" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="6fp-cP-7tl"/>
+                                    <constraint firstAttribute="width" constant="60" id="Y1k-FI-kLq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.59999999999999998" green="0.59607843140000005" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="veg-1C-bCc" customClass="LCShineButton" customModule="LCShineButton" customModuleProvider="target">
+                                <rect key="frame" x="157" y="396" width="60" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="FcG-u6-PTy"/>
+                                    <constraint firstAttribute="height" constant="60" id="GPg-Rw-fxV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.59999999999999998" green="0.59607843140000005" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hn7-ha-mCW" customClass="LCShineButton" customModule="LCShineButton" customModuleProvider="target">
+                                <rect key="frame" x="157" y="504" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="BQu-Zl-zmn"/>
+                                    <constraint firstAttribute="width" constant="60" id="pw9-w3-gZV"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ygt-KR-go2">
+                                <rect key="frame" x="34" y="318" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="1Gh-RN-9aB"/>
+                                    <constraint firstAttribute="height" constant="30" id="M0a-V4-yjg"/>
+                                </constraints>
+                                <state key="normal" title="Show"/>
+                                <connections>
+                                    <action selector="showClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KW8-Mm-iZW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hn7-ha-mCW" firstAttribute="top" secondItem="veg-1C-bCc" secondAttribute="bottom" constant="48" id="4l1-s6-WK8"/>
+                            <constraint firstItem="veg-1C-bCc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Nd-q1-SRa"/>
+                            <constraint firstItem="M4p-9b-y0h" firstAttribute="top" secondItem="wXO-Y2-bRP" secondAttribute="bottom" constant="48" id="DaH-V1-ilR"/>
+                            <constraint firstItem="wXO-Y2-bRP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="McP-RG-DQo"/>
+                            <constraint firstItem="hn7-ha-mCW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YW7-oM-RXB"/>
+                            <constraint firstItem="M4p-9b-y0h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yxe-ZL-Vnf"/>
+                            <constraint firstItem="wXO-Y2-bRP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z2S-d3-EHs"/>
+                            <constraint firstItem="ygt-KR-go2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="iSx-aQ-acZ"/>
+                            <constraint firstItem="ygt-KR-go2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="mOX-eT-ou9"/>
+                            <constraint firstItem="QAl-f9-BPA" firstAttribute="top" secondItem="M4p-9b-y0h" secondAttribute="bottom" constant="48" id="mt5-Kt-0Ld"/>
+                            <constraint firstItem="veg-1C-bCc" firstAttribute="top" secondItem="QAl-f9-BPA" secondAttribute="bottom" constant="48" id="rbC-fG-Fxt"/>
+                            <constraint firstItem="QAl-f9-BPA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v90-eW-Gqs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="customBtn" destination="hn7-ha-mCW" id="Ni0-hL-TPe"/>
+                        <outlet property="heartBtn" destination="wXO-Y2-bRP" id="PDZ-sW-U0s"/>
+                        <outlet property="likeBtn" destination="M4p-9b-y0h" id="Hbq-bS-hjj"/>
+                        <outlet property="smileBtn" destination="QAl-f9-BPA" id="LJL-Df-6hi"/>
+                        <outlet property="starBtn" destination="veg-1C-bCc" id="aGT-sC-h4I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
